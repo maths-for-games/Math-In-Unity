@@ -15,6 +15,6 @@ public class IntegerOverflow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Debug.Log(bigNumber);
-        bigNumber = bigNumber + 1;
+        bigNumber = checked(bigNumber + 1);
 	}
 }
